@@ -55,6 +55,7 @@
     <Compile Include="Services\PromotionalContentService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="EiGroupPlc-Application-PublicanChannel.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
