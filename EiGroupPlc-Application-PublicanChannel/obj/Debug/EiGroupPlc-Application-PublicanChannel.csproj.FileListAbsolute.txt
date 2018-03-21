@@ -1,0 +1,8 @@
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroupPlc-Application-PublicanChannel\obj\Debug\EiGroupPlc-Application-PublicanChannel.csproj.CoreCompileInputs.cache
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroupPlc-Application-PublicanChannel\bin\Debug\PublicanChannel.dll
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroupPlc-Application-PublicanChannel\bin\Debug\PublicanChannel.pdb
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroupPlc-Application-PublicanChannel\obj\Debug\PublicanChannel.dll
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroupPlc-Application-PublicanChannel\obj\Debug\PublicanChannel.pdb
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroupPlc-Application-PublicanChannel\bin\Debug\EiGroupPlc-Services-Contracts-PromotionalContent.dll
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroupPlc-Application-PublicanChannel\bin\Debug\PublicanChannel.dll.CodeAnalysisLog.xml
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroupPlc-Application-PublicanChannel\bin\Debug\PublicanChannel.dll.lastcodeanalysissucceeded
