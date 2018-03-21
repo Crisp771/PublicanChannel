@@ -27,5 +27,3 @@ C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\PublicanCha
 C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\PublicanChannelUnitTests\obj\Debug\PublicanChannelUnitTests.dll
 C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\PublicanChannelUnitTests\obj\Debug\PublicanChannelUnitTests.pdb
 C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\PublicanChannelUnitTests\bin\Debug\EiGroupPlc-Services-Contracts-PromotionalContent.dll
-C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\PublicanChannelUnitTests\bin\Debug\PublicanChannelUnitTests.dll.CodeAnalysisLog.xml
-C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\PublicanChannelUnitTests\bin\Debug\PublicanChannelUnitTests.dll.lastcodeanalysissucceeded

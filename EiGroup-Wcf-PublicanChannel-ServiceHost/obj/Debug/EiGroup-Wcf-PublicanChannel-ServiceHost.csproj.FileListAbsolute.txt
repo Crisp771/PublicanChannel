@@ -1,0 +1,8 @@
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroup-Wcf-PublicanChannel-ServiceHost\bin\Debug\EiGroup-Wcf-PublicanChannel-ServiceHost.exe.config
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroup-Wcf-PublicanChannel-ServiceHost\bin\Debug\EiGroup-Wcf-PublicanChannel-ServiceHost.exe
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroup-Wcf-PublicanChannel-ServiceHost\bin\Debug\EiGroup-Wcf-PublicanChannel-ServiceHost.pdb
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroup-Wcf-PublicanChannel-ServiceHost\bin\Debug\EiGroupPlc-Services-Contracts-PromotionalContent.dll
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroup-Wcf-PublicanChannel-ServiceHost\obj\Debug\EiGroup-Wcf-PublicanChannel-ServiceHost.csprojResolveAssemblyReference.cache
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroup-Wcf-PublicanChannel-ServiceHost\obj\Debug\EiGroup-Wcf-PublicanChannel-ServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroup-Wcf-PublicanChannel-ServiceHost\obj\Debug\EiGroup-Wcf-PublicanChannel-ServiceHost.exe
+C:\Users\WilsonC\source\repos\EiGroupPlc-Application-PublicanChannel\EiGroup-Wcf-PublicanChannel-ServiceHost\obj\Debug\EiGroup-Wcf-PublicanChannel-ServiceHost.pdb

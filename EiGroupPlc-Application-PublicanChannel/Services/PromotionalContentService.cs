@@ -1,13 +1,10 @@
 ﻿using EiGroupPlc.Application.PublicanChannel.Interfaces.Mappers;
 using EiGroupPlc.Application.PublicanChannel.Interfaces.Repositories;
+using EiGroupPlc.Application.PublicanChannel.Mappers;
 using EiGroupPlc.Application.PublicanChannel.Repositories;
 using EiGroupPlc.Services.Contracts.Dtos.PromotionalContent;
 using EiGroupPlc.Services.Contracts.PromotionalContent;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EiGroupPlc.Application.PublicanChannel.Services
 {
@@ -15,6 +12,12 @@ namespace EiGroupPlc.Application.PublicanChannel.Services
     {
         IPromotionalContentRepository _promotionalContentRepository;
         IPromotionalContentMapper _mapper;
+
+        public PromotionalContentService()
+        {
+            _promotionalContentRepository = new PromotionalContentRepository();
+            _mapper = new PromotionalContentMapper();
+        }
 
         public PromotionalContentService(IPromotionalContentRepository promotionalContentRepository, IPromotionalContentMapper mapper)
         {
