@@ -24,6 +24,7 @@ namespace EiGroup_Wcf_PublicanChannel_ConsoleHost
             // Here's where I'd like to be registering services using reflection.   I don't think we' should have to explicitly tell the host what to serve.
 
             RegisterLocalService("PromotionalContentService", 9001, typeof(PromotionalContentService), typeof(IPromotionalContentService));
+            RegisterLocalHttpsService("PromotionalContentService", 9443, typeof(PromotionalContentService), typeof(IPromotionalContentService));
 
             foreach (var serviceHost in _serviceHosts)
             {
@@ -42,7 +43,7 @@ namespace EiGroup_Wcf_PublicanChannel_ConsoleHost
             Console.WriteLine($"netsh http add urlacl url=http://localhost:{port}/{serviceName} user=domain\\user\n");
             // To be added to package and deploy script;
             // netsh http add urlacl url=http://localhost:9001/RetailService user=cris-pc\cris
-            var strAdrHttp = $"http://localhost:{port}/{serviceName}Service";
+            var strAdrHttp = $"http://localhost:{port}/{serviceName}";
 
             Uri[] adrbase = { new Uri(strAdrHttp) };
             var serviceHost = new ServiceHost(serviceType, adrbase);
@@ -55,6 +56,29 @@ namespace EiGroup_Wcf_PublicanChannel_ConsoleHost
             serviceHost.AddServiceEndpoint(typeof(IMetadataExchange), MetadataExchangeBindings.CreateMexHttpBinding(), "mex");
             _serviceHosts.Add(serviceHost);
         }
+
+        private static void RegisterLocalHttpsService(string serviceName, int port, Type serviceType, Type contractType)
+        {
+            Console.WriteLine($"Registering {serviceName} service on port {port}");
+            Console.WriteLine($"netsh http add urlacl url=https://localhost:{port}/{serviceName} user=EVERYONE");
+            // To be added to package and deploy script;
+            // netsh http add urlacl url={ServiceUri} user=EVERYONE
+            var strAdrHttp = $"https://localhost:{port}/{serviceName}";
+
+            Uri[] adrbase = { new Uri(strAdrHttp) };
+            var serviceHost = new ServiceHost(serviceType, adrbase);
+
+            var mBehave = new ServiceMetadataBehavior();
+            serviceHost.Description.Behaviors.Add(mBehave);
+
+            var httpb = new BasicHttpBinding();
+            httpb.Security.Mode = BasicHttpSecurityMode.Transport;
+
+            serviceHost.AddServiceEndpoint(contractType, httpb, strAdrHttp);
+            serviceHost.AddServiceEndpoint(typeof(IMetadataExchange), MetadataExchangeBindings.CreateMexHttpsBinding(), "mex");
+            _serviceHosts.Add(serviceHost);
+        }
+
 
         private void Stop()
         {
